@@ -6,10 +6,14 @@ A docker container that can be started and ran that hosts a webservice with an e
   <h2>step 2.</h2> clone this repo. (This repo only has the .py file for reference)<br/>
   <h2>step 3.</h2> Open a terminal. <br/>
   <h2>step 4.</h2> Run (this will pull the image down)<br/>
+      <br/>
       docker pull paulrdurham/durham_python <br/>
-        ## Yeah, I know. Its not a creative name. <br/>
+      <br/>
+        Yeah, I know. Its not a creative name. <br/>
   <h2>step 5.<h2/> Run (this will start the webservice while running the image)<br/>
-      docker run -it -p 5000:5000 durham_python python /mnt/main.py<br/>
+        <br/>
+        docker run -it -p 5000:5000 durham_python python /mnt/main.py<br/>
+        <br/>
   <h2>step 6.<h2/><br/>
       You may now use curl commands to access the end point<br/>
  <br/>
